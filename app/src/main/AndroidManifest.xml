@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaOrderApplication_20210404"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ViewStoreDetailActivity"></activity>
+        <activity android:name=".EidtNicknameActivity"></activity>
+        <activity android:name=".ViewStoreDetailActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
