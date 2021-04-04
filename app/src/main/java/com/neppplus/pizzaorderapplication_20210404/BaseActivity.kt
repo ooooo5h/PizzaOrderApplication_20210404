@@ -8,4 +8,5 @@ abstract class BaseActivity : AppCompatActivity() {
 
     abstract fun setUpEvents()
     abstract fun setValues()
+
 }
