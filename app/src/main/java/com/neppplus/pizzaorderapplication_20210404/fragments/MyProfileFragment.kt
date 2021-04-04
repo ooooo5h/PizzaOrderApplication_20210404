@@ -11,7 +11,7 @@ import com.neppplus.pizzaorderapplication_20210404.EditNicknameActivity
 import com.neppplus.pizzaorderapplication_20210404.R
 import kotlinx.android.synthetic.main.fragment_my_profile.*
 
-class MyProfileFragment : Fragment() {
+class MyProfileFragment : Fragment() { // fragment xml + 코틀린파일 복붙해줬음
 
     val REQ_FOR_NICKNAME = 1004
 
@@ -20,7 +20,7 @@ class MyProfileFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_my_profile, container, false)
+        return inflater.inflate(R.layout.fragment_my_profile, container, false) // 프래그먼트이름 바꿔줬음 피자스토어말고
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
