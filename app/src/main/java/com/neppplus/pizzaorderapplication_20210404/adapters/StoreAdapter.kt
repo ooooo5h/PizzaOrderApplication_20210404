@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ImageView
+import android.widget.TextView
 import com.neppplus.pizzaorderapplication_20210404.R
 import com.neppplus.pizzaorderapplication_20210404.datas.Store
 
@@ -24,6 +26,12 @@ class StoreAdapter(
 
         val row = tempRow!!
 
+        val storeData = mList[position]
+
+        val logoImg = row.findViewById<ImageView>(R.id.logoImg)
+        val storeNameTxt = row.findViewById<TextView>(R.id.storeNameTxt)
+
+        storeNameTxt.text = storeData.name
 
         return row
     }
