@@ -21,7 +21,7 @@ class MainViewPagerAdapter(fm : FragmentManager) : FragmentPagerAdapter(fm) { //
     }
 
 
-    override fun getPageTitle(position: Int): CharSequence? {
+    override fun getPageTitle(position: Int): CharSequence? { // getpagetitle오버라이딩해서 탭레이아웃 제목 넣어주기
 
         return when(position) {
             0 -> "피자 주문"

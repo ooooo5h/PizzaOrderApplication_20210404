@@ -25,7 +25,7 @@ class MainActivity : BaseActivity() { // BaseActivity 상속받고, alt + Enter�
         mViewPagerAdapter = MainViewPagerAdapter(supportFragmentManager) // 기본생성자가 아니라 커스터마이징으로 프래그먼트 매니저했으니 그 변수를 넣어줘야함..??
         mainViewPager.adapter = mViewPagerAdapter // xml에 있는 뷰페이저의 어댑터에 멤버변수어댑터를 대입해줘
 
-        mainTabLayout.setupWithViewPager(mainViewPager)
+        mainTabLayout.setupWithViewPager(mainViewPager) // 코틀린에서 뷰페이저와 연결해줌. 탭레이아웃의 뷰페이저설정을 메인뷰페이저로 해줘
 
     }
 
