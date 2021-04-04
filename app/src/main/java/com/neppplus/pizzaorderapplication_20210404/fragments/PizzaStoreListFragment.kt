@@ -1,5 +1,7 @@
 package com.neppplus.pizzaorderapplication_20210404.fragments
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -33,6 +35,15 @@ class PizzaStoreListFragment : Fragment() {
 
         mPizzaStoreAdapter = StoreAdapter(activity!!, R.layout.store_list_item, mPizzaStoreList)
         pizzaStoreListView.adapter = mPizzaStoreAdapter
+
+        pizzaStoreListView.setOnItemClickListener { adapterView, view, position, l ->
+
+            val clickedStore = mPizzaStoreList[position]
+
+//            val myIntent = Intent(Activity, )
+
+
+        }
 
     }
 }
