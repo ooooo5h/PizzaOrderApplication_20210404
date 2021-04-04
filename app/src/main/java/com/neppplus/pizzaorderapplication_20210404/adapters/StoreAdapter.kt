@@ -11,6 +11,7 @@ import com.bumptech.glide.Glide
 import com.neppplus.pizzaorderapplication_20210404.R
 import com.neppplus.pizzaorderapplication_20210404.datas.Store
 
+
 class StoreAdapter(
     val mContext : Context,
     val resId : Int,

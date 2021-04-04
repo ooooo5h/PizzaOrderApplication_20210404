@@ -6,6 +6,7 @@ import com.neppplus.pizzaorderapplication_20210404.adapters.MainViewPagerAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
+//    test
 
     lateinit var mViewPagerAdapter : MainViewPagerAdapter
 
