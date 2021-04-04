@@ -5,8 +5,7 @@ import android.os.Bundle
 import com.neppplus.pizzaorderapplication_20210404.adapters.MainViewPagerAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : BaseActivity() {
-//    test
+class MainActivity : BaseActivity() { // BaseActivity 상속받고, alt + Enter로 구현
 
     lateinit var mViewPagerAdapter : MainViewPagerAdapter
 
